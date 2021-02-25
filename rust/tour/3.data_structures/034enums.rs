@@ -4,7 +4,7 @@ enum Species {
     Crab,
     Octopus,
     Fish,
-    Clam
+    Clam,
 }
 
 struct SeaCreature {
@@ -27,10 +27,9 @@ fn main() {
     };
 
     match ferris.species {
-        Species::Crab => println!("{} is a crab",ferris.name),
-        Species::Octopus => println!("{} is a octopus",ferris.name),
-        Species::Fish => println!("{} is a fish",ferris.name),
-        Species::Clam => println!("{} is a clam",ferris.name),
+        Species::Crab => println!("{} is a crab", ferris.name),
+        Species::Octopus => println!("{} is a octopus", ferris.name),
+        Species::Fish => println!("{} is a fish", ferris.name),
+        Species::Clam => println!("{} is a clam", ferris.name),
     }
 }
-

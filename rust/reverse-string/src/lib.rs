@@ -1,3 +1,7 @@
+// pub fn reverse(input: &str) -> String {
+//     input.chars().rev().collect()
+// }
+
 pub fn reverse(input: &str) -> String {
     let mut length = input.len();
     let mut result = String::new();
