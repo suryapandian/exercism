@@ -1,5 +1,6 @@
 fn main() {
     let x = 12; // by default this is i32
+    // x = 3 -> wil throw error since variables are immutable by default i.e) their values cannot be changed
     let a = 12u8;
     let b = 4.3; // by default this is f64
     let c = 4.3f32;
