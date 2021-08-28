@@ -39,6 +39,13 @@ fn main() {
         weapon: String::from("brain"),
     };
 
+//short hand operator to copy value.
+
+   let ashley = SeaCreature{
+       name: String::from("Ashley"),
+       ..sarah
+    };
+
     println!(
         "{} is a {}. They have {} arms, {} legs, and a {} weapon",
         ferris.name, ferris.animal_type, ferris.arms, ferris.legs, ferris.weapon
